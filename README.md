@@ -9,7 +9,7 @@ This is a module for use in conjunction with the [Cypher System game system for 
 
 ## Contributing
 
-The easiest way to contribute is to clone this repository locally, make the changes you want, and create a pull request to the main repository. For support, visit the [Cypher FVTT Dev Discord](https://discord.gg/C5zGgtyhwa).
+The easiest way to contribute is to clone this repository locally, make the changes you want, and create a pull request to the develop branch. For support, visit the [Cypher FVTT Dev Discord](https://discord.gg/C5zGgtyhwa).
 
 The content in this module must adhere to the Fan Use Policy, so only game terms and associated numerical values from MCG published books can be used. All items from published books should come with page references, which turn into clickable links if the corresponding PDF is created as a journal entry within Foundry using [PDFoundry](https://foundryvtt.com/packages/pdfoundry/).
 
