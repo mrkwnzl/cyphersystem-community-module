@@ -1,0 +1,51 @@
+{
+  "name": "cyphersystem-community-module",
+  "title": "Cypher System Community Module",
+  "description": "Community content for the Cypher System",
+  "author": "Marko Wenzel",
+  "version": "0.1.0",
+  "minimumCoreVersion": "0.8.5",
+  "compatibleCoreVersion": "9",
+  "packs": [
+    {
+      "label": "Actors",
+      "entity": "Actor",
+      "name": "actors",
+      "path": "packs/actors.db",
+      "system": "cyphersystem",
+      "module": "cyphersystem-community-module"
+    },
+    {
+      "label": "Items",
+      "entity": "Item",
+      "name": "items",
+      "path": "packs/items.db",
+      "system": "cyphersystem",
+      "module": "cyphersystem-community-module"
+    },
+    {
+      "label": "Scenes",
+      "entity": "Scene",
+      "name": "scenes",
+      "path": "packs/scenes.db",
+      "system": "cyphersystem",
+      "module": "cyphersystem-community-module"
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "cyphersystem",
+      "type": "system",
+      "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-foundryvtt/main/system.json"
+    },
+    {
+      "name": "pdfoundry",
+      "type": "module",
+      "manifest": "https://raw.githubusercontent.com/Djphoenix719/PDFoundry/master/module.json"
+    }
+  ],
+  "url": "https://github.com/mrkwnzl/cyphersystem-compendium",
+  "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-compendium/main/module.json",
+  "download": "https://github.com/mrkwnzl/cyphersystem-compendium/releases/download/v2.1.0/release.zip",
+  "license": "LICENSE.md"
+}
