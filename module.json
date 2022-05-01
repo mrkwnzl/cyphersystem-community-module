@@ -44,8 +44,8 @@
       "manifest": "https://raw.githubusercontent.com/Djphoenix719/PDFoundry/master/module.json"
     }
   ],
-  "url": "https://github.com/mrkwnzl/cyphersystem-compendium",
-  "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-compendium/main/module.json",
-  "download": "https://github.com/mrkwnzl/cyphersystem-compendium/releases/download/v2.1.0/release.zip",
+  "url": "https://github.com/mrkwnzl/cyphersystem-community-module",
+  "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-community-module/main/module.json",
+  "download": "https://github.com/mrkwnzl/cyphersystem-community-module/releases/download/v0.1.0/release.zip",
   "license": "LICENSE.md"
 }
