@@ -3,9 +3,17 @@
   "title": "Cypher System Community Module",
   "description": "Community content for the Cypher System",
   "author": "Marko Wenzel",
+  "authors": [],
+  "url": "https://github.com/mrkwnzl/cyphersystem-compendium",
+  "license": "LICENSE.md",
+  "flags": {},
   "version": "0.1.0",
   "minimumCoreVersion": "0.8.5",
   "compatibleCoreVersion": "9",
+  "scripts": [],
+  "esmodules": [],
+  "styles": [],
+  "languages": [],
   "packs": [
     {
       "label": "Actors",
@@ -13,7 +21,9 @@
       "name": "actors",
       "path": "packs/actors.db",
       "system": "cyphersystem",
-      "module": "cyphersystem-community-module"
+      "module": "cyphersystem-community-module",
+      "type": "Actor",
+      "private": false
     },
     {
       "label": "Items",
@@ -21,7 +31,9 @@
       "name": "items",
       "path": "packs/items.db",
       "system": "cyphersystem",
-      "module": "cyphersystem-community-module"
+      "module": "cyphersystem-community-module",
+      "type": "Item",
+      "private": false
     },
     {
       "label": "Scenes",
@@ -29,9 +41,12 @@
       "name": "scenes",
       "path": "packs/scenes.db",
       "system": "cyphersystem",
-      "module": "cyphersystem-community-module"
+      "module": "cyphersystem-community-module",
+      "type": "Scene",
+      "private": false
     }
   ],
+  "system": [],
   "dependencies": [
     {
       "name": "cyphersystem",
@@ -44,8 +59,10 @@
       "manifest": "https://raw.githubusercontent.com/Djphoenix719/PDFoundry/master/module.json"
     }
   ],
-  "url": "https://github.com/mrkwnzl/cyphersystem-community-module",
-  "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-community-module/main/module.json",
-  "download": "https://github.com/mrkwnzl/cyphersystem-community-module/releases/download/v0.1.0/release.zip",
-  "license": "LICENSE.md"
+  "socket": false,
+  "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-compendium/main/module.json",
+  "download": "https://github.com/mrkwnzl/cyphersystem-compendium/releases/download/v2.1.0/release.zip",
+  "protected": false,
+  "coreTranslation": false,
+  "library": false
 }
