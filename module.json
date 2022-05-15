@@ -4,7 +4,7 @@
   "description": "Community content for the Cypher System",
   "author": "Marko Wenzel",
   "authors": [],
-  "url": "https://github.com/mrkwnzl/cyphersystem-compendium",
+  "url": "https://github.com/mrkwnzl/cyphersystem-community-module",
   "license": "LICENSE.md",
   "flags": {},
   "version": "0.1.0",
@@ -60,8 +60,8 @@
     }
   ],
   "socket": false,
-  "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-compendium/main/module.json",
-  "download": "https://github.com/mrkwnzl/cyphersystem-compendium/releases/download/v2.1.0/release.zip",
+  "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-community-module/main/module.json",
+  "download": "https://github.com/mrkwnzl/cyphersystem-community-module/releases/download/v0.1.0/release.zip",
   "protected": false,
   "coreTranslation": false,
   "library": false
