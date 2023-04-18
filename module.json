@@ -1,5 +1,6 @@
 {
   "title": "Cypher System Community Module",
+  "id": "cyphersystem-community-module",
   "description": "Community content for the Cypher System",
   "url": "https://github.com/mrkwnzl/cyphersystem-community-module",
   "license": "LICENSE.md",
@@ -35,16 +36,7 @@
   ],
   "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-community-module/main/module.json",
   "download": "https://github.com/mrkwnzl/cyphersystem-community-module/releases/download/v0.1.0/release.zip",
-  "id": "cyphersystem-community-module",
   "relationships": {
-    "requires": [
-      {
-        "id": "pdfoundry",
-        "type": "module",
-        "manifest": "https://raw.githubusercontent.com/Djphoenix719/PDFoundry/master/module.json",
-        "compatibility": {}
-      }
-    ],
     "systems": [
       {
         "id": "cyphersystem",
@@ -55,7 +47,7 @@
     ]
   },
   "compatibility": {
-    "minimum": "0.8.5",
-    "verified": "9"
+    "minimum": "10",
+    "verified": "10"
   }
 }
