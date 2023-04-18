@@ -1,68 +1,53 @@
 {
-  "name": "cyphersystem-community-module",
   "title": "Cypher System Community Module",
+  "id": "cyphersystem-community-module",
   "description": "Community content for the Cypher System",
-  "author": "Marko Wenzel",
-  "authors": [],
   "url": "https://github.com/mrkwnzl/cyphersystem-community-module",
   "license": "LICENSE.md",
-  "flags": {},
   "version": "0.1.0",
-  "minimumCoreVersion": "0.8.5",
-  "compatibleCoreVersion": "9",
-  "scripts": [],
-  "esmodules": [],
-  "styles": [],
-  "languages": [],
   "packs": [
     {
-      "label": "Actors",
-      "entity": "Actor",
-      "name": "actors",
+      "label": "Example Actors",
+      "name": "example-actors",
       "path": "packs/actors.db",
       "system": "cyphersystem",
-      "module": "cyphersystem-community-module",
       "type": "Actor",
-      "private": false
+      "private": false,
+      "flags": {}
     },
     {
-      "label": "Items",
-      "entity": "Item",
-      "name": "items",
-      "path": "packs/items.db",
+      "label": "Meeples",
+      "name": "meeples",
+      "path": "packs/meeples.db",
       "system": "cyphersystem",
-      "module": "cyphersystem-community-module",
-      "type": "Item",
-      "private": false
+      "type": "Actor",
+      "private": false,
+      "flags": {}
     },
     {
       "label": "Scenes",
-      "entity": "Scene",
       "name": "scenes",
       "path": "packs/scenes.db",
       "system": "cyphersystem",
-      "module": "cyphersystem-community-module",
       "type": "Scene",
-      "private": false
+      "private": false,
+      "flags": {}
     }
   ],
-  "system": [],
-  "dependencies": [
-    {
-      "name": "cyphersystem",
-      "type": "system",
-      "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-foundryvtt/main/system.json"
-    },
-    {
-      "name": "pdfoundry",
-      "type": "module",
-      "manifest": "https://raw.githubusercontent.com/Djphoenix719/PDFoundry/master/module.json"
-    }
-  ],
-  "socket": false,
   "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-community-module/main/module.json",
   "download": "https://github.com/mrkwnzl/cyphersystem-community-module/releases/download/v0.1.0/release.zip",
-  "protected": false,
-  "coreTranslation": false,
-  "library": false
+  "relationships": {
+    "systems": [
+      {
+        "id": "cyphersystem",
+        "type": "system",
+        "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-foundryvtt/main/system.json",
+        "compatibility": {}
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10"
+  }
 }
