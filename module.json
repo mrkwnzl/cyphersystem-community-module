@@ -24,15 +24,6 @@
       "flags": {}
     },
     {
-      "label": "Items",
-      "name": "items",
-      "path": "packs/items.db",
-      "system": "cyphersystem",
-      "type": "Item",
-      "private": false,
-      "flags": {}
-    },
-    {
       "label": "Scenes",
       "name": "scenes",
       "path": "packs/scenes.db",
