@@ -1,4 +1,4 @@
-# Cypher System Compendium
+# Cypher System Community Content
 
 ![GitHub Latest Release](https://img.shields.io/github/release/mrkwnzl/cyphersystem-community-module?style=flat-square)
 ![GitHub Downloads Latest](https://img.shields.io/github/downloads/mrkwnzl/cyphersystem-community-module/latest/total?style=flat-square)
@@ -24,7 +24,7 @@ You can also reach me on the [official Foundry Discord](https://discord.gg/found
 
 ## Buy Me A Coffee
 
-If the Cypher System for Foundry VTT makes your games more accessible and fun, I’m grateful for a coffee:
+If the Cypher System Community Content module for Foundry VTT makes your games more accessible and fun, I’m grateful for a coffee:
 
 <a href="https://www.buymeacoffee.com/mrkwnzl" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" height="40"></a>
 
