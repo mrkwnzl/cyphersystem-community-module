@@ -12,9 +12,10 @@ This is a module for use in conjunction with [Cypher System for Foundry VTT](htt
 The Cypher System Community Content module comes with various compendium packs, which include the following content:
 
 - Meeples, which are quick, pre-made standard NPCs from levels 1 through 10 in various colors. Use them when you need a quick standard NPC on a scene.
-- Example actors that highlight varios features of the Cypher System with short explanations of these features in the actor’s description tab.
+- Example actors that highlight various features of the Cypher System with short explanations of these features in the actor’s description tab.
 - Pre-made scenes for with various themes. One includes a space combat tracker, as explained in the Science Fiction Rulebook in the CSRD Compendium.
 - A Technofantasy Ruleset, which serves as an example on how to create your own rulesets using just the content from the CSRD Compendium. This is a great start for any Numenera game.
+- Cyphers, artifacts, and descriptors from [Old Gus’ Daft Drafts](https://callmepartario.github.io/og-csrd/og-dd.html). Easy access via the Old Gus’ Daft Draft Ruleset.
 
 ## Contributing
 
@@ -45,6 +46,14 @@ This product is an independent production and is not affiliated with Monte Cook 
 CYPHER SYSTEM and its logo are trademarks of Monte Cook Games, LLC in the U.S.A. and other countries. All Monte Cook Games characters and character names, and the distinctive likenesses thereof, are trademarks of Monte Cook Games, LLC. 
 
 ## Credits
+
+### Content
+
+- Scenes in the smaug18’s Scenes folder by smaug18.
+- [Old Gus’ Daft Drafts](https://callmepartario.github.io/og-csrd/og-dd.html) content by Old Gus.
+- Everything else by Marko Wenzel.
+
+### Images
 
 Images in `img/smaug18/scenes/` are taken from [Pixabay](https://pixabay.com). 
 
