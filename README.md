@@ -47,6 +47,14 @@ CYPHER SYSTEM and its logo are trademarks of Monte Cook Games, LLC in the U.S.A.
 
 ## Credits
 
+### Content
+
+- Scenes in the smaug18’s Scenes folder by smaug18.
+- [Old Gus’ Daft Drafts](https://callmepartario.github.io/og-csrd/og-dd.html) content by Old Gus.
+- Everything else by Marko Wenzel.
+
+### Images
+
 Images in `img/smaug18/scenes/` are taken from [Pixabay](https://pixabay.com). 
 
 - [12019](https://pixabay.com/users/12019-12019/)
