@@ -55,7 +55,7 @@ CYPHER SYSTEM and its logo are trademarks of Monte Cook Games, LLC in the U.S.A.
 
 ### Images
 
-Images in `img/smaug18` are done by @smaug18, created with images in `img/smaug18/scenes` taken from [Pixabay](https://pixabay.com). 
+Images in `img/smaug18` are done by @smaug18. Images in `img/smaug18/scenes` created with images taken from [Pixabay](https://pixabay.com):
 
 - [12019](https://pixabay.com/users/12019-12019/)
 - [AlexAntropov86](https://pixabay.com/users/alexantropov86-2691829/)
