@@ -55,7 +55,7 @@ CYPHER SYSTEM and its logo are trademarks of Monte Cook Games, LLC in the U.S.A.
 
 ### Images
 
-Images in `img/smaug18/scenes/` are taken from [Pixabay](https://pixabay.com). 
+Images in `img/smaug18` are done by @smaug18, created with images in `img/smaug18/scenes` taken from [Pixabay](https://pixabay.com). 
 
 - [12019](https://pixabay.com/users/12019-12019/)
 - [AlexAntropov86](https://pixabay.com/users/alexantropov86-2691829/)
@@ -70,10 +70,8 @@ Images in `img/smaug18/scenes/` are taken from [Pixabay](https://pixabay.com).
 - [prettysleepy1](https://pixabay.com/users/prettysleepy1-2855492/)
 - [Schmid-Reportagen](https://pixabay.com/users/schmid-reportagen-646138/)
 
-`img/smaug18/overlays/smaug18_home-scene_overlay.png` by smaug18#2066.
+Images in `img/meeples` are CC BY 3.0 from [game-icons.net](https://game-icons.net), by [Delapouite](https://delapouite.com/).
 
-Images in `img/meeples` from [game-icons.net](https://game-icons.net), by [Delapouite](https://delapouite.com/).
+Images in `img/scenes` are CC BY 4.0 by Marko Wenzel.
 
-Images in `img/scenes` by Marko Wenzel.
-
-Images in `img/tokens` done with Colorful Characters ©2020 by [Mikoarc Studio](https://www.drivethrurpg.com/product/426982/FREE-STOCK-ART-100-Fantasy-Characters), licensed under CC BY 4.0.
+Images in `img/tokens` are CC BY 4.0 by Marko Wenzel, created with Colorful Characters ©2020 by [Mikoarc Studio](https://www.drivethrurpg.com/product/426982/FREE-STOCK-ART-100-Fantasy-Characters), licensed under CC BY 4.0.
