@@ -79,18 +79,6 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
-    },
-    {
-      "label": "Old Gus’ Daft Draft Macros",
-      "name": "og-dd-macros",
-      "path": "packs/og-dd-macros",
-      "system": "cyphersystem",
-      "type": "Macro",
-      "flags": {},
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
     }
   ],
   "packFolders": [
@@ -109,8 +97,7 @@
           "sorting": "m",
           "packs": [
             "og-dd-items",
-            "og-dd-roll-tables",
-            "og-dd-macros"
+            "og-dd-roll-tables"
           ]
         }
       ]
