@@ -4,9 +4,9 @@
   "description": "Community content for the Cypher System",
   "url": "https://github.com/mrkwnzl/cyphersystem-community-module",
   "license": "LICENSE.md",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-community-module/main/module.json",
-  "download": "https://github.com/mrkwnzl/cyphersystem-community-module/releases/download/v1.1.2/release.zip",
+  "download": "https://github.com/mrkwnzl/cyphersystem-community-module/releases/download/v1.2.0/release.zip",
   "packs": [
     {
       "label": "Example Actors",
