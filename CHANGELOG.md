@@ -7,7 +7,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## [1.1.2] - 2023-11-02
 ### Changed
 - Updated Example actors for tag changes in the Cypher system.
-- The Cypher System Community module now requires the Cypher system v2.10.4.
+- The Cypher System Community module now requires the Cypher system v2.11.0.
 
 ## [1.1.1] - 2023-08-31
 ### Changed

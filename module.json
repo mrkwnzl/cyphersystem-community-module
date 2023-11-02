@@ -110,7 +110,7 @@
         "type": "system",
         "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-foundryvtt/main/system.json",
         "compatibility": {
-          "minimum": "2.10.4"
+          "minimum": "2.11.0"
         }
       }
     ],
