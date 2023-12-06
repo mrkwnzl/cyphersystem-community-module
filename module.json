@@ -4,9 +4,35 @@
   "description": "Community content for the Cypher System",
   "url": "https://github.com/mrkwnzl/cyphersystem-community-module",
   "license": "LICENSE.md",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-community-module/main/module.json",
-  "download": "https://github.com/mrkwnzl/cyphersystem-community-module/releases/download/v1.2.0/release.zip",
+  "download": "https://github.com/mrkwnzl/cyphersystem-community-module/releases/download/v1.3.0/release.zip",
+  "relationships": {
+    "systems": [
+      {
+        "id": "cyphersystem",
+        "type": "system",
+        "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-foundryvtt/main/system.json",
+        "compatibility": {
+          "minimum": "2.12.0"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "cyphersystem-compendium",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-compendium/main/module.json",
+        "compatibility": {
+          "minimum": "3.8.0"
+        }
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11.315"
+  },
   "packs": [
     {
       "label": "Example Actors",
@@ -57,9 +83,21 @@
       }
     },
     {
+      "label": "Old Gus’ Daft Drafts",
+      "name": "og-dd",
+      "path": "packs/old-gus/og-dd",
+      "system": "cyphersystem",
+      "type": "JournalEntry",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "label": "Old Gus’ Daft Draft Items",
       "name": "og-dd-items",
-      "path": "packs/og-dd-items",
+      "path": "packs/old-gus/og-dd-items",
       "system": "cyphersystem",
       "type": "Item",
       "flags": {},
@@ -71,7 +109,7 @@
     {
       "label": "Old Gus’ Daft Draft Roll Tables",
       "name": "og-dd-roll-tables",
-      "path": "packs/og-dd-roll-tables",
+      "path": "packs/old-gus/og-dd-roll-tables",
       "system": "cyphersystem",
       "type": "RollTable",
       "flags": {},
@@ -83,7 +121,7 @@
     {
       "label": "Old Gus’ Daft Draft Macros",
       "name": "og-dd-macros",
-      "path": "packs/og-dd-macros",
+      "path": "packs/old-gus/og-dd-macros",
       "system": "cyphersystem",
       "type": "Macro",
       "flags": {},
@@ -108,38 +146,14 @@
           "name": "Old Gus’ Daft Drafts",
           "sorting": "m",
           "packs": [
+            "og-dd",
             "og-dd-items",
             "og-dd-roll-tables",
             "og-dd-macros"
-          ]
+          ],
+          "folders": []
         }
       ]
     }
-  ],
-  "relationships": {
-    "systems": [
-      {
-        "id": "cyphersystem",
-        "type": "system",
-        "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-foundryvtt/main/system.json",
-        "compatibility": {
-          "minimum": "2.11.0"
-        }
-      }
-    ],
-    "requires": [
-      {
-        "id": "cyphersystem-compendium",
-        "type": "module",
-        "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-compendium/main/module.json",
-        "compatibility": {
-          "minimum": "3.8.0"
-        }
-      }
-    ]
-  },
-  "compatibility": {
-    "minimum": "11",
-    "verified": "11.308"
-  }
+  ]
 }
