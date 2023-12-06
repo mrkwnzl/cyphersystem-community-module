@@ -7,6 +7,32 @@
   "version": "1.3.0",
   "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-community-module/main/module.json",
   "download": "https://github.com/mrkwnzl/cyphersystem-community-module/releases/download/v1.3.0/release.zip",
+  "relationships": {
+    "systems": [
+      {
+        "id": "cyphersystem",
+        "type": "system",
+        "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-foundryvtt/main/system.json",
+        "compatibility": {
+          "minimum": "2.12.0"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "cyphersystem-compendium",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-compendium/main/module.json",
+        "compatibility": {
+          "minimum": "3.8.0"
+        }
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11.315"
+  },
   "packs": [
     {
       "label": "Example Actors",
@@ -129,31 +155,5 @@
         }
       ]
     }
-  ],
-  "relationships": {
-    "systems": [
-      {
-        "id": "cyphersystem",
-        "type": "system",
-        "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-foundryvtt/main/system.json",
-        "compatibility": {
-          "minimum": "2.11.0"
-        }
-      }
-    ],
-    "requires": [
-      {
-        "id": "cyphersystem-compendium",
-        "type": "module",
-        "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-compendium/main/module.json",
-        "compatibility": {
-          "minimum": "3.8.0"
-        }
-      }
-    ]
-  },
-  "compatibility": {
-    "minimum": "11",
-    "verified": "11.313"
-  }
+  ]
 }
