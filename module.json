@@ -35,100 +35,125 @@
   },
   "packs": [
     {
-      "label": "Example Actors",
       "name": "example-actors",
+      "label": "Example Actors",
       "path": "packs/actors",
-      "system": "cyphersystem",
       "type": "Actor",
-      "flags": {},
+      "system": "cyphersystem",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
     },
     {
-      "label": "Meeples",
       "name": "meeples",
+      "label": "Meeples",
       "path": "packs/meeples",
-      "system": "cyphersystem",
       "type": "Actor",
-      "flags": {},
+      "system": "cyphersystem",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
     },
     {
-      "label": "Scenes",
       "name": "scenes",
+      "label": "Scenes",
       "path": "packs/scenes",
-      "system": "cyphersystem",
       "type": "Scene",
-      "flags": {},
+      "system": "cyphersystem",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
     },
     {
-      "label": "Cypher System Rulesets",
       "name": "rulesets",
+      "label": "Custom Rulesets",
       "path": "packs/rulesets",
-      "system": "cyphersystem",
       "type": "JournalEntry",
-      "flags": {},
+      "system": "cyphersystem",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
     },
     {
-      "label": "Old Gus’ Daft Drafts",
       "name": "og-dd",
+      "label": "Old Gus’ Daft Drafts",
       "path": "packs/old-gus/og-dd",
-      "system": "cyphersystem",
       "type": "JournalEntry",
-      "flags": {},
+      "system": "cyphersystem",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
     },
     {
-      "label": "Old Gus’ Daft Draft Items",
       "name": "og-dd-items",
+      "label": "Old Gus’ Daft Draft Items",
       "path": "packs/old-gus/og-dd-items",
-      "system": "cyphersystem",
       "type": "Item",
-      "flags": {},
+      "system": "cyphersystem",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
     },
     {
-      "label": "Old Gus’ Daft Draft Roll Tables",
       "name": "og-dd-roll-tables",
+      "label": "Old Gus’ Daft Draft Roll Tables",
       "path": "packs/old-gus/og-dd-roll-tables",
-      "system": "cyphersystem",
       "type": "RollTable",
-      "flags": {},
+      "system": "cyphersystem",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
     },
     {
-      "label": "Old Gus’ Daft Draft Macros",
       "name": "og-dd-macros",
+      "label": "Old Gus’ Daft Draft Macros",
       "path": "packs/old-gus/og-dd-macros",
-      "system": "cyphersystem",
       "type": "Macro",
-      "flags": {},
+      "system": "cyphersystem",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "ruleset-items",
+      "label": "Ruleset Items",
+      "path": "packs/ruleset-items",
+      "type": "Item",
+      "system": "cyphersystem",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ruleset-actors",
+      "label": "Ruleset Actors",
+      "path": "packs/ruleset-actors",
+      "type": "Actor",
+      "system": "cyphersystem",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "macros",
+      "label": "Macros",
+      "path": "packs/macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "cyphersystem"
     }
   ],
   "packFolders": [
@@ -137,9 +162,9 @@
       "sorting": "m",
       "packs": [
         "example-actors",
+        "macros",
         "meeples",
-        "scenes",
-        "rulesets"
+        "scenes"
       ],
       "folders": [
         {
@@ -150,6 +175,16 @@
             "og-dd-items",
             "og-dd-roll-tables",
             "og-dd-macros"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Custom Rulesets",
+          "sorting": "m",
+          "packs": [
+            "rulesets",
+            "ruleset-actors",
+            "ruleset-items"
           ],
           "folders": []
         }
