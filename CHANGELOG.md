@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.4.0]
+## [1.4.0] - 2024-09-01
 ### Added
 - Old Gods, Old Times ruleset added.
 - Added macro to create and edit sticky notes, optimized for the tabletop scenes coming with the Cypher system.
